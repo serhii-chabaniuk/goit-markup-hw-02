@@ -11,6 +11,51 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.site-nav {
+.logo {
+  font-family: Raleway, sans-serif;
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.84;
+  letter-spacing: 0.03em;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.88;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.contact {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.88;
+  letter-spacing: 0.02em;
+}
+
+.contact:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }

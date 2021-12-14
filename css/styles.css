@@ -38,7 +38,7 @@ body {
   color: var(--accent-color);
 }
 
-.contact {
+.contact-header {
   color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 500;
@@ -47,7 +47,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contact:hover,
+.contact-header:hover,
 :focus {
   color: var(--accent-color);
 }

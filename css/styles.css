@@ -13,6 +13,10 @@ body {
 
 /* header */
 
+header {
+  background-color: #ffffff;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
@@ -63,7 +67,11 @@ body {
 
 /* main */
 
-h1 {
+.section-title {
+  background-color: #2f303a;
+}
+
+.title {
   font-family: Roboto, sans-serif;
   color: var(--primary-white-color);
   font-weight: 900;
@@ -74,7 +82,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.button {
+.btn {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
@@ -88,9 +96,21 @@ h1 {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.btn:hover,
+.btn:focus {
   color: var(--title-text-color);
+}
+
+.section-advantage {
+  background-color: #e5e5e5;
+}
+
+.section-doing {
+  background-color: #e5e5e5;
+}
+
+.section-team {
+  background-color: #f5f4fa;
 }
 
 /* footer */

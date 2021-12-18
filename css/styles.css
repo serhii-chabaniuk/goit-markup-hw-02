@@ -71,7 +71,7 @@ header {
   background-color: #2f303a;
 }
 
-.title {
+.title-h1 {
   font-family: Roboto, sans-serif;
   color: var(--primary-white-color);
   font-weight: 900;
@@ -103,6 +103,29 @@ header {
 
 .section-advantage {
   background-color: #e5e5e5;
+}
+
+.title-advantage {
+  display: none;
+}
+
+.advantage-ul {
+  list-style-type: none;
+}
+
+.advantege-h3 {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantege {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .section-doing {
@@ -154,3 +177,7 @@ footer {
 .contact-footer:focus {
   color: var(--accent-color);
 }
+
+/* ul {
+  list-style-type: none;
+} */

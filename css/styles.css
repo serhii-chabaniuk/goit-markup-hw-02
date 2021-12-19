@@ -214,3 +214,19 @@ footer {
 .main-portfolio {
   background: #e5e5e5;
 }
+
+.btn-filter {
+  font-family: Roboto, sans-serif;
+  background-color: F5F4FA;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn-filter:focus .btn-filter:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}

@@ -226,7 +226,8 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.btn-filter:focus .btn-filter:hover {
+.btn-filter:focus,
+.btn-filter:hover {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }

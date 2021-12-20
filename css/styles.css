@@ -46,6 +46,10 @@ header {
   color: var(--accent-color);
 }
 
+.nav .nav-link.current {
+  color: var(--accent-color);
+}
+
 .contact-head {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;

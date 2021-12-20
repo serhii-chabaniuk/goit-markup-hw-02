@@ -235,3 +235,16 @@ footer {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+.h2-portfolio {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}

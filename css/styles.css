@@ -14,7 +14,7 @@ body {
 /* header */
 
 header {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
 }
 
 .logo {

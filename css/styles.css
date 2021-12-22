@@ -13,10 +13,6 @@ body {
 
 /* header */
 
-header {
-  background-color: var(--primary-white-color);
-}
-
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
@@ -33,7 +29,6 @@ header {
 
 .nav-link {
   color: var(--title-text-color);
-  font-family: Roboto, sans-serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -46,13 +41,12 @@ header {
   color: var(--accent-color);
 }
 
-.nav .nav-link.current {
+.nav-link.current {
   color: var(--accent-color);
 }
 
 .contact-head {
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -87,7 +81,6 @@ header {
 }
 
 .title-h1 {
-  font-family: Roboto, sans-serif;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -177,7 +170,7 @@ header {
 
 /* footer */
 
-footer {
+.page-footer {
   background-color: #2f303a;
 }
 
@@ -186,12 +179,12 @@ footer {
 }
 
 .address {
-  font-family: Roboto, sans-serif;
   color: var(--primary-white-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .address:hover,
@@ -200,12 +193,12 @@ footer {
 }
 
 .contact-footer {
-  font-family: Roboto, sans-serif;
   color: var(--contact-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .contact-footer:hover,
@@ -221,7 +214,7 @@ footer {
 
 .btn-filter {
   font-family: Roboto, sans-serif;
-  background-color: F5F4FA;
+  background-color: #f5f4fa;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -241,7 +234,6 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  /* text-decoration: none; */
 }
 
 .text-portfolio {
